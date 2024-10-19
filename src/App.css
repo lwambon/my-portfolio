@@ -6,6 +6,7 @@
 
 body {
   font-family: "Times New Roman", Times, serif;
+  background-color: var(--primary-color);
 }
 html {
   font-size: 62.5%;
