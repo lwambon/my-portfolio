@@ -1,0 +1,30 @@
+.about-information {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+}
+
+.about-image {
+  width: 48%;
+}
+.about-image img {
+  width: 70%;
+  margin: 2rem;
+  padding-left: 8rem;
+  border-radius: 0.3rem;
+  justify-content: center;
+  align-items: center;
+  border: transparent;
+}
+
+.about-info-details {
+  width: 48%;
+}
+.about-info-details p {
+  font-size: 2rem;
+  line-height: 1.8;
+  box-shadow: 0 0 3rem;
+  padding: 1.8rem;
+  border-radius: 0.3rem;
+}

@@ -20,3 +20,10 @@ html {
   --secondary-color: #ff8343;
   --background-color: #16325b;
 }
+.title {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 3rem;
+  color: var(--secondary-text-color);
+  margin: 2rem;
+}
