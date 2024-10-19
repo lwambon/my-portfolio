@@ -1,21 +1,21 @@
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-body{
-  font-family: 'Times New Roman', Times, serif;
+body {
+  font-family: "Times New Roman", Times, serif;
 }
-html{
-  font-size:62.5%
+html {
+  font-size: 62.5%;
 }
 
-:root{
-  --primary-color:black;
-  --text-color:white;
-  --btn-color:blue;
-  --secondary-text-color:red;
-  --secondary-color:green;
-  --background-color:black;
+:root {
+  --primary-color: #424242;
+  --text-color: #1e201e;
+  --btn-color: #e4003a;
+  --secondary-text-color: #fffbe6;
+  --secondary-color: #ff8343;
+  --background-color: #16325b;
 }
