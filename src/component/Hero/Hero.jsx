@@ -3,6 +3,7 @@ import "./Hero.css";
 import { FaGithub } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa";
 import HeroImage from "./../../assets/lucy-wambo.jpg";
+import myCv from "./../../assets/LWW.pdf";
 
 const GithubUrl = "https://github.com/lwambon";
 const LinkedinUrl = "https://www.linkedin.com/in/lucy-wambui-225965242";
@@ -20,7 +21,9 @@ function Hero() {
         </p>
         <p className="hero-content">welcome to my website</p>
         <div className="hero-links">
-          <button>download resume</button>
+          <Link to={myCv} download="LucyWambui_Resume.pdf">
+            <button>download resume</button>
+          </Link>
           <div className="link-items">
             <Link to={GithubUrl} target="_blank" rel="noopener noreferrer">
               <FaGithub />
