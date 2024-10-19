@@ -8,6 +8,7 @@
 .about-image {
   width: 48%;
 }
+
 .about-image img {
   width: 70%;
   margin: 2rem;
@@ -21,10 +22,57 @@
 .about-info-details {
   width: 48%;
 }
+
 .about-info-details p {
   font-size: 2rem;
   line-height: 1.8;
   box-shadow: 0 0 3rem;
   padding: 1.8rem;
   border-radius: 0.3rem;
+}
+
+@media (max-width: 64rem) {
+  .about-image img {
+    width: 80%;
+    padding-left: 4rem;
+  }
+
+  .about-info-details p {
+    font-size: 1.8rem;
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 48rem) {
+  .about-information {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-image,
+  .about-info-details {
+    width: 90%;
+  }
+
+  .about-image img {
+    width: 100%;
+    margin: 1.5rem 0;
+    padding-left: 0;
+  }
+
+  .about-info-details p {
+    font-size: 1.6rem;
+    padding: 1.2rem;
+  }
+}
+
+@media (max-width: 30rem) {
+  .about-info-details p {
+    font-size: 1.4rem;
+    padding: 1rem;
+  }
+
+  .about-image img {
+    margin: 1rem 0;
+  }
 }
