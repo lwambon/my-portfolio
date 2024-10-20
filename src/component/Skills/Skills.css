@@ -1,0 +1,45 @@
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.skill-item {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 39rem;
+  box-shadow: 0 0 2rem;
+  align-items: center;
+  margin: 1rem auto;
+  border-radius: 0.5rem;
+}
+.skill-item:hover {
+  cursor: pointer;
+  transition: 0.4s;
+  background-color: lightsteelblue;
+}
+
+.icon {
+  font-size: 4rem;
+  margin: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  align-items: center;
+}
+.subtitle {
+  font-size: 2rem;
+  text-transform: capitalize;
+  color: antiquewhite;
+}
+
+.skills-details {
+  margin: 1.2rem;
+  font-size: 1.9rem;
+  line-height: 1.9;
+  text-align: justify;
+}
