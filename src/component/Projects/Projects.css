@@ -13,7 +13,6 @@
   flex-direction: column;
   flex-wrap: wrap;
   box-shadow: 0 0 3rem;
-  background-color: lightsteelblue;
   margin: 2rem auto;
   border-radius: 0.9rem;
 }
@@ -45,7 +44,7 @@
   text-align: justify;
   padding: 0.9rem;
   font-size: 1.7rem;
-  color: var(--text-color);
+  color: white;
 }
 
 .project-links {

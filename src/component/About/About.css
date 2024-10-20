@@ -29,6 +29,7 @@
   box-shadow: 0 0 3rem;
   padding: 1.8rem;
   border-radius: 0.3rem;
+  color: white;
 }
 
 @media (max-width: 64rem) {

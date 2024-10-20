@@ -1,0 +1,89 @@
+.education-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.education-cards {
+  display: flex;
+  flex-direction: column;
+  width: 50rem;
+  box-shadow: 0 0 3rem;
+  margin: 1.4rem auto;
+  border-radius: 0.5rem;
+}
+
+.education-subtite {
+  text-transform: uppercase;
+  color: var(--secondary-color);
+  font-size: 2rem;
+  margin: 2.3rem 1.4rem;
+}
+
+.education-title {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  margin-left: 2.3rem;
+  margin-bottom: 1.4rem;
+  color: white;
+}
+
+.place-of-education {
+  text-transform: capitalize;
+  margin-left: 2.3rem;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.education-details {
+  font-size: 1.6rem;
+  margin: 1rem;
+  text-align: justify;
+  line-height: 1.4;
+  color: white;
+  margin-bottom: 1.4rem;
+}
+
+@media (max-width: 48rem) {
+  .education-cards {
+    width: 100%;
+    margin: 1rem auto;
+  }
+
+  .education-title,
+  .place-of-education,
+  .education-details {
+    font-size: 1.5rem;
+    margin-left: 1.5rem;
+  }
+
+  .education-subtite {
+    font-size: 1.8rem;
+    margin: 2rem 1.4rem;
+  }
+}
+
+@media (max-width: 30rem) {
+  .education-cards {
+    width: 100%;
+    margin: 0.8rem auto;
+    padding: 1rem;
+  }
+
+  .education-title,
+  .place-of-education,
+  .education-details {
+    font-size: 1.3rem;
+    margin-left: 1rem;
+  }
+
+  .education-subtite {
+    font-size: 1.5rem;
+    margin: 1.5rem 1rem;
+  }
+
+  .education-details {
+    margin: 0.8rem;
+  }
+}
