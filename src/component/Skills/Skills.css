@@ -20,6 +20,7 @@
 .skill-item:hover {
   cursor: pointer;
   transition: 0.4s;
+  transform: translateY(-8px);
   background-color: lightsteelblue;
 }
 

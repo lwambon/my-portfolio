@@ -1,0 +1,72 @@
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  gap: 1.2rem;
+}
+
+.project-cards {
+  width: 38rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  box-shadow: 0 0 3rem;
+  background-color: lightsteelblue;
+  margin: 2rem auto;
+  border-radius: 0.9rem;
+}
+
+.project-cards:hover {
+  background-color: var(--background-color);
+  cursor: pointer;
+  transform: translateY(-8px);
+}
+
+.project-cards img {
+  width: 38rem;
+  height: 23rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+.project-cards img:hover {
+  cursor: pointer;
+  filter: brightness(0.8);
+}
+.project-subtitle {
+  text-align: center;
+  font-size: 1.3rem;
+  margin-top: 0.5rem;
+}
+
+.project-details {
+  line-height: 1.5;
+  text-align: justify;
+  padding: 0.9rem;
+  font-size: 1.7rem;
+  color: var(--text-color);
+}
+
+.project-links {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 3rem;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+  border-radius: 0.7rem;
+  margin-bottom: 0.8rem;
+}
+
+.project-links a {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  width: 10rem;
+  text-align: center;
+  padding: 0.5rem;
+}
+.project-links a:hover {
+  cursor: pointer;
+  background-color: var(--btn-color);
+}
