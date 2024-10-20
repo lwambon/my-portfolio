@@ -69,13 +69,15 @@
   }
 
   .navigation-links {
-    flex-direction: column;
-    gap: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+    margin:auto;
   }
 
   .navigation-links a {
-    font-size: 1.2rem;
-    padding: 0.8rem;
+    font-size: 1rem;
+    padding: 0.3rem;
   }
 }
 
