@@ -4,15 +4,18 @@ import Header from "./component/Header/Header";
 import Home from "./component/Home/Home";
 import About from "./component/About/About";
 import Skills from "./component/Skills/Skills";
+import Projects from "./component/Projects/Projects";
 
 function App() {
   return (
     <BrowserRouter>
       <Header />
+
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/skills" element={<Skills />} />
+        <Route path="/projects" element={<Projects />} />
       </Routes>
     </BrowserRouter>
   );
