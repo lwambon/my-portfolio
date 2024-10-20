@@ -62,7 +62,7 @@
 
 @media screen and (max-width: 30rem) {
   .contact-container {
-    width: 95%;
+    width: 100%;
     padding: 1rem;
   }
 
@@ -73,7 +73,7 @@
   }
 
   .contact-container a p {
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     text-align: center;
   }
 
