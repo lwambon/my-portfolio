@@ -5,6 +5,7 @@ import Home from "./component/Home/Home";
 import About from "./component/About/About";
 import Skills from "./component/Skills/Skills";
 import Projects from "./component/Projects/Projects";
+import Footer from "./component/Footer/Footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/skills" element={<Skills />} />
         <Route path="/projects" element={<Projects />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }
