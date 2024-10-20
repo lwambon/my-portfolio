@@ -71,8 +71,8 @@
   .navigation-links {
     display: flex;
     flex-wrap: wrap;
-    gap: .5rem;
-    margin:auto;
+    gap: 0.5rem;
+    margin: auto;
   }
 
   .navigation-links a {
